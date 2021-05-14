@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container"
+        style="width: 40%; margin-top: 100px; border: 1px solid #dcdcdc; background-color: azure; padding: 30px;">
+        <h1 style="text-align: center;">Login</h1>
+        <form action="">
+            <div class="form-group">
+                <div class="form-label-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email address" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label-group">
+                    <input type="password" id="password" class="form-control" placeholder="Password"
+                        required="required">
+                </div>
+            </div>
+        </form>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" onclick="login(email, password)">Login</button>
+        </div>
+    </div>
+    <script src="js/form_ajax.js" async defer></script>
+    <script src="js/index.js" async defer></script>
+</body>
+
+</html>

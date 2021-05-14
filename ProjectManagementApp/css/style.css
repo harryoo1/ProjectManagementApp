@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    color: white;
+    font-size: 20px;
+    background-color: #186CA3;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+
+.form-group{
+    margin: 40px 20px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-block {
+    width: 20%;
+    background-color: grey;
+    padding: 20px;
+    height: 100vh;
+}
+
+.board-container {
+    width: 80%;
+    padding: 20px;
+}
+
+.add-board-block {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#newBoardName {
+    width: 80%;
+    min-width: 250px;
+    height: 40px;
+    padding: 0px 15px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+}
+
+#add-board-btn {
+    width: 140px;
+    height: 44px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.board-block{
+    margin-top: 20px;
+    display: none;
+}
+
+.project-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    width: 30%;
+}
+
+#taskContainer{
+    background-color: #dcdcdc;
+    margin-top: 20px;
+    padding: 10px;
+}
+#addTask{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+#taskList{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #acacac;
+}
